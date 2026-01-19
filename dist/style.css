@@ -1,29 +1,37 @@
 h1{
-  border-color: #d3e644;
-  border-style: dashed;
+  background-color: cadetblue;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 20px;
+body{
+  background-image: url("library.jpeg");
+  background-size: cover;
+  background-color: gainsboro;
 }
 
-th, td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
+#definitely-not-giving-these-the-same-id{
+  background-color: rgb(20, 70, 80);
+  color: rgb(240, 230, 210);
+  margin: 20px;
+  margin-right: 60vw;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  padding-right: 15px;
 }
 
-th {
-  background-color: #f2f2f2;
-  font-weight: bold;
+h2{
+  font-family: "Lucida Sans", sans-serif;
 }
 
-tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
+p{
+  font-family: "Arial", sans-serif;
 }
 
-tbody tr:hover {
-  background-color: #e9e9e9;
+li{
+  font-family: "Arial", sans-serif;
+  padding: 5px;
+}
+
+a{
+  color: rgb(241, 200, 118);
+  font-family: "Arial", sans-serif;
 }
